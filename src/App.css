@@ -59,14 +59,18 @@ nav {
   justify-content: space-evenly;
   font-size: 4rem;
   font-weight: 200;
-  margin-right: 40px;
   text-transform: uppercase;
 }
 
-.hero-image {
+.hero-image-container {
   display: flex;
-  margin-top: 30px;
   justify-content: space-evenly;
+  margin-left: 90px;
+}
+
+.hero-image {
+  height: 300px;
+  width: 300px;
 }
 
 /* About US */
@@ -94,6 +98,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 200;
 }
+
 .paragraph-div {
   margin-top: 90px;
   width: 65%;
@@ -452,4 +457,220 @@ footer span {
 
 .icon-span {
   margin-left: 12px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 950px) {
+  .logo-heading,
+  .quality-heading,
+  .team-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-heading {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+  }
+
+  .links,
+  .logo-heading {
+    letter-spacing: 1px;
+  }
+
+  .links {
+    font-size: 1rem;
+    margin-left: 12px;
+    margin-right: 0px;
+  }
+
+  .hero-heading {
+    font-size: 2rem;
+    display: flex;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .hero-section {
+    margin-left: 56px;
+  }
+
+  .hero-image-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-image {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+  .about-us,
+  .qualities,
+  .services,
+  .team-container,
+  .contact-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us {
+    margin-left: 85px;
+  }
+
+  .services-image,
+  .team-image,
+  .contactus-image {
+    width: 70%;
+    margin-left: 80px;
+    height: auto;
+  }
+
+  .aboutus-image {
+    width: 70%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+
+  .about-button {
+    margin-left: 12px;
+  }
+
+  .paragraph-div {
+    width: 85%;
+  }
+
+  .qualities {
+    margin-left: 100px;
+  }
+
+  .quality-heading {
+    margin-left: 100px;
+  }
+
+  .quality-paragraph {
+    margin-left: 60px;
+  }
+
+  .quality-margin {
+    margin-top: 40px;
+  }
+
+  .team-members {
+    margin-bottom: 50px;
+  }
+
+  .dishes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dishes-paragraph {
+    width: 90%;
+    margin-left: 30px;
+  }
+
+  .dishes-image {
+    width: 70%;
+    height: auto;
+  }
+
+  .dish1 {
+    left: 95px;
+    top: 20px;
+  }
+
+  .dish1-title {
+    left: 165px;
+    top: 410px;
+  }
+
+  .dish2 {
+    top: 485px;
+    left: 95px;
+  }
+
+  .dish2-title {
+    top: 880px;
+    left: 165px;
+  }
+
+  .dish3 {
+    top: 955px;
+    left: 95px;
+  }
+
+  .dish3-title {
+    top: 1352px;
+    right: 165px;
+  }
+
+  .dish4 {
+    top: 1415px;
+    left: 95px;
+  }
+
+  .dish4-title {
+    top: 1811px;
+    right: 175px;
+  }
+
+  .dish5 {
+    top: 1890px;
+    left: 95px;
+  }
+
+  .dish5-title {
+    bottom: 1422px;
+    left: 165px;
+  }
+
+  .dish6 {
+    top: 2355px;
+    left: 95px;
+  }
+
+  .dish6-title {
+    bottom: 954px;
+    left: 185px;
+  }
+
+  .dish7 {
+    top: 2822px;
+    left: 95px;
+  }
+
+  .dish7-title {
+    bottom: 482px;
+    right: 180px;
+  }
+
+  .dish8 {
+    top: 3290px;
+    left: 95px;
+  }
+
+  .dish8-title {
+    right: 200px;
+  }
+
+  .image-banner {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .right {
+    margin-bottom: 20px;
+  }
 }

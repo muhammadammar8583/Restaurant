@@ -17,9 +17,7 @@ const AboutUs = () => {
             perspiciatis! Distinctio, accusamus magnam.
           </p>
         </div>
-        <Button className="about-button" smooth={true} duration={500}>
-          Explore More
-        </Button>
+        <button className="about-button">Explore More</button>
       </div>
       <div className="about-us-image">
         <img

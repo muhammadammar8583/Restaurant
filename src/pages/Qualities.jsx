@@ -3,7 +3,7 @@ import React from "react";
 const Qualities = () => {
   return (
     <div className="qualities" id="qualities">
-      <div className="first ">
+      <div className="">
         <img
           src="quality_food.svg"
           alt="quality food"
@@ -15,7 +15,7 @@ const Qualities = () => {
           repellendus officia qui repellat.
         </p>
       </div>
-      <div className="second quality-width">
+      <div className="quality-margin">
         <img
           src="super_taste.svg"
           alt="super taste"
@@ -27,7 +27,7 @@ const Qualities = () => {
           repellendus officia qui repellat.
         </p>
       </div>
-      <div className="third quality-width">
+      <div className="quality-margin">
         <img
           src="fast_delivery.svg"
           alt="fast delivery"

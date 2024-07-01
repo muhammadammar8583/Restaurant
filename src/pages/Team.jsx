@@ -9,17 +9,17 @@ const Team = () => {
         perferendis cum illum vel, rem voluptates fugit neque facilis impedit?
       </p>
       <div className="team-container">
-        <div className="first-team">
+        <div className="team-members">
           <img src="team_member_1.png" alt="Head Chef" className="team-image" />
           <h2 className="team-title">Johnathan Tyler</h2>
           <p className="team-post">Founder & Head Chef</p>
         </div>
-        <div className="second-team">
+        <div className="team-members">
           <img src="team_member_2.png" alt="Sous Chef" className="team-image" />
           <h2 className="team-title">Wade Warren</h2>
           <p className="team-post">Sous Chef</p>
         </div>
-        <div className="third-team">
+        <div className="team-members">
           <img
             src="team_member_3.png"
             alt="Fast Food Chef"
@@ -28,7 +28,7 @@ const Team = () => {
           <h2 className="team-title">John Doe</h2>
           <p className="team-post">Fast Food Chef</p>
         </div>
-        <div className="fourth-team">
+        <div className="team-members">
           <img
             src="team_member_4.png"
             alt="Senior Chef"
